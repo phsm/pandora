@@ -8,7 +8,7 @@ package plugin
 import (
 	"testing"
 
-	"github.com/yandex/pandora/lib/ginkgoutil"
+	"github.com/phsm/pandora/lib/ginkgoutil"
 )
 
 func TestPlugin(t *testing.T) {

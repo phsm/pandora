@@ -20,6 +20,7 @@ type ClientGunConfig struct {
 type HTTPGunConfig struct {
 	Gun    ClientGunConfig `config:",squash"`
 	Client ClientConfig    `config:",squash"`
+    SNIHost string          `config:"snihost"`
 }
 
 type HTTP2GunConfig struct {
@@ -29,6 +30,9 @@ type HTTP2GunConfig struct {
 
 func NewHTTPGun(conf HTTPGunConfig) *HTTPGun {
 	transport := NewTransport(conf.Client.Transport, NewDialer(conf.Client.Dialer).DialContext)
+	if conf.Gun.SSL && conf.SNIHost != "" {
+		transport.TLSClientConfig.ServerName = conf.SNIHost
+	}
 	client := newClient(transport, conf.Client.Redirect)
 	return NewClientGun(client, conf.Gun)
 }

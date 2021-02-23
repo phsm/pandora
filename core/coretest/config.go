@@ -7,8 +7,8 @@ package coretest
 
 import (
 	"github.com/onsi/gomega"
-	"github.com/yandex/pandora/core/config"
-	"github.com/yandex/pandora/lib/ginkgoutil"
+	"github.com/phsm/pandora/core/config"
+	"github.com/phsm/pandora/lib/ginkgoutil"
 )
 
 func Decode(data string, result interface{}) {

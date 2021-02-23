@@ -10,13 +10,13 @@ Pandora is a high-performance load generator in Go language. It has built-in HTT
 ## How to start
 
 ### Binary releases
-[Download](https://github.com/yandex/pandora/releases) available.
+[Download](https://github.com/phsm/pandora/releases) available.
 
 ### Building from sources
 We use go 1.11 modules.
 If you build pandora inside $GOPATH, please make sure you have env variable `GO111MODULE` set to `on`.
 ```bash
-git clone https://github.com/yandex/pandora.git
+git clone https://github.com/phsm/pandora.git
 cd pandora
 make deps
 go install
@@ -35,7 +35,7 @@ GOOS=linux GOARCH=amd64 go build
 ```
 
 ### Running your tests
-Run the binary with your config (see config examples at [examples](https://github.com/yandex/pandora/tree/develop/examples)):
+Run the binary with your config (see config examples at [examples](https://github.com/phsm/pandora/tree/develop/examples)):
 
 ```bash
 # $GOBIN should be added to $PATH

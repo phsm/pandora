@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/yandex/pandora/core"
+	"github.com/phsm/pandora/core"
 )
 
 // DoAt returns when i'th operation should be performed, assuming that schedule

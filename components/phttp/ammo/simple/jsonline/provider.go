@@ -14,7 +14,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/spf13/afero"
-	"github.com/yandex/pandora/components/phttp/ammo/simple"
+	"github.com/phsm/pandora/components/phttp/ammo/simple"
 )
 
 func NewProvider(fs afero.Fs, conf Config) *Provider {

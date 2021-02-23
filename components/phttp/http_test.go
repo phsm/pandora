@@ -18,9 +18,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
 
-	ammomock "github.com/yandex/pandora/components/phttp/mocks"
-	"github.com/yandex/pandora/core/aggregator/netsample"
-	"github.com/yandex/pandora/core/config"
+	ammomock "github.com/phsm/pandora/components/phttp/mocks"
+	"github.com/phsm/pandora/core/aggregator/netsample"
+	"github.com/phsm/pandora/core/config"
 )
 
 var _ = Describe("BaseGun", func() {

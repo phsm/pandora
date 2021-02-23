@@ -9,10 +9,10 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/yandex/pandora/core"
-	coremock "github.com/yandex/pandora/core/mocks"
-	"github.com/yandex/pandora/core/schedule"
-	"github.com/yandex/pandora/lib/ginkgoutil"
+	"github.com/phsm/pandora/core"
+	coremock "github.com/phsm/pandora/core/mocks"
+	"github.com/phsm/pandora/core/schedule"
+	"github.com/phsm/pandora/lib/ginkgoutil"
 )
 
 var _ = Describe("Instance", func() {

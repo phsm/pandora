@@ -1,14 +1,14 @@
 Installation
 ============
 
-`Download <https://github.com/yandex/pandora/releases>`_ binary release or build from source.
+`Download <https://github.com/phsm/pandora/releases>`_ binary release or build from source.
 
 We use go 1.11 modules.
 If you build pandora inside $GOPATH, please make sure you have env variable `GO111MODULE` set to `on`.
 
 .. code-block:: bash
 
-  git clone https://github.com/yandex/pandora.git
+  git clone https://github.com/phsm/pandora.git
   make deps
   go install
 

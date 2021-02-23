@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/yandex/pandora/core"
+	"github.com/phsm/pandora/core"
 )
 
 var _ = Describe("Num", func() {

@@ -78,12 +78,12 @@ gRPC
 	  "google.golang.org/grpc"
 	  pb "my_package/my_protobuf_contracts"
 
-	  "github.com/yandex/pandora/cli"
-	  "github.com/yandex/pandora/components/phttp/import"
-	  "github.com/yandex/pandora/core"
-	  "github.com/yandex/pandora/core/aggregator/netsample"
-	  "github.com/yandex/pandora/core/import"
-	  "github.com/yandex/pandora/core/register"
+	  "github.com/phsm/pandora/cli"
+	  "github.com/phsm/pandora/components/phttp/import"
+	  "github.com/phsm/pandora/core"
+	  "github.com/phsm/pandora/core/aggregator/netsample"
+	  "github.com/phsm/pandora/core/import"
+	  "github.com/phsm/pandora/core/register"
   )
 
   type Ammo struct {
@@ -273,12 +273,12 @@ Websockets
         "github.com/gorilla/websocket"
         "github.com/spf13/afero"
 
-        "github.com/yandex/pandora/cli"
-        "github.com/yandex/pandora/components/phttp/import"
-        "github.com/yandex/pandora/core"
-        "github.com/yandex/pandora/core/aggregator/netsample"
-        "github.com/yandex/pandora/core/import"
-        "github.com/yandex/pandora/core/register"
+        "github.com/phsm/pandora/cli"
+        "github.com/phsm/pandora/components/phttp/import"
+        "github.com/phsm/pandora/core"
+        "github.com/phsm/pandora/core/aggregator/netsample"
+        "github.com/phsm/pandora/core/import"
+        "github.com/phsm/pandora/core/register"
     )
 
     type Ammo struct {

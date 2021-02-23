@@ -3,7 +3,7 @@ package netsample
 import (
 	"context"
 
-	"github.com/yandex/pandora/core"
+	"github.com/phsm/pandora/core"
 )
 
 type Aggregator interface {

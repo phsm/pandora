@@ -13,10 +13,10 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/yandex/pandora/core"
-	"github.com/yandex/pandora/core/coreutil"
-	"github.com/yandex/pandora/lib/errutil"
-	"github.com/yandex/pandora/lib/monitoring"
+	"github.com/phsm/pandora/core"
+	"github.com/phsm/pandora/core/coreutil"
+	"github.com/phsm/pandora/lib/errutil"
+	"github.com/phsm/pandora/lib/monitoring"
 )
 
 type Config struct {

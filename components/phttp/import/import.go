@@ -11,13 +11,13 @@ import (
 	"github.com/spf13/afero"
 	"go.uber.org/zap"
 
-	. "github.com/yandex/pandora/components/phttp"
-	"github.com/yandex/pandora/components/phttp/ammo/simple/jsonline"
-	"github.com/yandex/pandora/components/phttp/ammo/simple/raw"
-	"github.com/yandex/pandora/components/phttp/ammo/simple/uri"
-	"github.com/yandex/pandora/core"
-	"github.com/yandex/pandora/core/register"
-	"github.com/yandex/pandora/lib/netutil"
+	. "github.com/phsm/pandora/components/phttp"
+	"github.com/phsm/pandora/components/phttp/ammo/simple/jsonline"
+	"github.com/phsm/pandora/components/phttp/ammo/simple/raw"
+	"github.com/phsm/pandora/components/phttp/ammo/simple/uri"
+	"github.com/phsm/pandora/core"
+	"github.com/phsm/pandora/core/register"
+	"github.com/phsm/pandora/lib/netutil"
 )
 
 func Import(fs afero.Fs) {

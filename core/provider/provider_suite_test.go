@@ -3,8 +3,8 @@ package provider
 import (
 	"testing"
 
-	"github.com/yandex/pandora/core"
-	"github.com/yandex/pandora/lib/ginkgoutil"
+	"github.com/phsm/pandora/core"
+	"github.com/phsm/pandora/lib/ginkgoutil"
 )
 
 func TestProvider(t *testing.T) {

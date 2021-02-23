@@ -8,8 +8,8 @@ package phttp
 import (
 	"net/http"
 
-	"github.com/yandex/pandora/core"
-	"github.com/yandex/pandora/core/aggregator/netsample"
+	"github.com/phsm/pandora/core"
+	"github.com/phsm/pandora/core/aggregator/netsample"
 )
 
 //go:generate mockery -name=Ammo -case=underscore -outpkg=ammomock

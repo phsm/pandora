@@ -8,10 +8,10 @@ package main
 import (
 	"github.com/spf13/afero"
 
-	"github.com/yandex/pandora/cli"
-	example "github.com/yandex/pandora/components/example/import"
-	phttp "github.com/yandex/pandora/components/phttp/import"
-	coreimport "github.com/yandex/pandora/core/import"
+	"github.com/phsm/pandora/cli"
+	example "github.com/phsm/pandora/components/example/import"
+	phttp "github.com/phsm/pandora/components/phttp/import"
+	coreimport "github.com/phsm/pandora/core/import"
 )
 
 func main() {

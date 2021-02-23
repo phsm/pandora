@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/yandex/pandora/core"
+	"github.com/phsm/pandora/core"
 )
 
 var ErrNoAmmoDecoded = fmt.Errorf("no ammo has been decoded from chunk")

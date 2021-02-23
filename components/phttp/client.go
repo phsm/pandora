@@ -15,8 +15,8 @@ import (
 	"golang.org/x/net/http2"
 
 	"github.com/pkg/errors"
-	"github.com/yandex/pandora/core/config"
-	"github.com/yandex/pandora/lib/netutil"
+	"github.com/phsm/pandora/core/config"
+	"github.com/phsm/pandora/lib/netutil"
 )
 
 //go:generate mockery -name=Client -case=underscore -inpkg -testonly
